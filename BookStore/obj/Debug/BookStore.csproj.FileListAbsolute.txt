@@ -8,3 +8,6 @@ C:\Users\III\Desktop\search\BookStore\BookStore\obj\Debug\BookStore.csproj.Gener
 C:\Users\III\Desktop\search\BookStore\BookStore\obj\Debug\BookStore.exe
 C:\Users\III\Desktop\search\BookStore\BookStore\obj\Debug\BookStore.pdb
 C:\Users\III\Desktop\search\BookStore\BookStore\obj\Debug\BookStore.MainForm.resources
+C:\Users\III\Desktop\albert\BookStore\bin\Debug\BookStore.exe.config
+C:\Users\III\Desktop\albert\BookStore\obj\Debug\BookStore.exe
+C:\Users\III\Desktop\albert\BookStore\obj\Debug\BookStore.pdb

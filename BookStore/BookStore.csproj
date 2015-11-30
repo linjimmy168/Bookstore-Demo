@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="修改員工資料Albert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="修改員工資料Albert.designer.cs">
+      <DependentUpon>修改員工資料Albert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="設定員工資料Albert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="設定員工資料Albert.designer.cs">
+      <DependentUpon>設定員工資料Albert.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="修改員工資料Albert.resx">
+      <DependentUpon>修改員工資料Albert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="設定員工資料Albert.resx">
+      <DependentUpon>設定員工資料Albert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

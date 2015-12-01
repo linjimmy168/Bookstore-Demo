@@ -17,6 +17,16 @@ namespace BookStore
             InitializeComponent();
         }
 
+        private void 會員登入系統_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
 
 
     }

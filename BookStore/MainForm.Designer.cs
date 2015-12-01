@@ -30,10 +30,17 @@
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.label_Dept = new System.Windows.Forms.Label();
-            this.label_Emp = new System.Windows.Forms.Label();
-            this.comboBox_Dept = new System.Windows.Forms.ComboBox();
             this.comboBox_Emp = new System.Windows.Forms.ComboBox();
+            this.comboBox_Dept = new System.Windows.Forms.ComboBox();
+            this.label_Emp = new System.Windows.Forms.Label();
+            this.label_Dept = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.SuspendLayout();
@@ -66,6 +73,13 @@
             // 
             // splitContainer2.Panel2
             // 
+            this.splitContainer2.Panel2.Controls.Add(this.button7);
+            this.splitContainer2.Panel2.Controls.Add(this.button6);
+            this.splitContainer2.Panel2.Controls.Add(this.button5);
+            this.splitContainer2.Panel2.Controls.Add(this.button4);
+            this.splitContainer2.Panel2.Controls.Add(this.button3);
+            this.splitContainer2.Panel2.Controls.Add(this.button2);
+            this.splitContainer2.Panel2.Controls.Add(this.button1);
             this.splitContainer2.Panel2.Controls.Add(this.comboBox_Emp);
             this.splitContainer2.Panel2.Controls.Add(this.comboBox_Dept);
             this.splitContainer2.Panel2.Controls.Add(this.label_Emp);
@@ -74,14 +88,21 @@
             this.splitContainer2.SplitterDistance = 112;
             this.splitContainer2.TabIndex = 0;
             // 
-            // label_Dept
+            // comboBox_Emp
             // 
-            this.label_Dept.AutoSize = true;
-            this.label_Dept.Location = new System.Drawing.Point(34, 5);
-            this.label_Dept.Name = "label_Dept";
-            this.label_Dept.Size = new System.Drawing.Size(53, 12);
-            this.label_Dept.TabIndex = 0;
-            this.label_Dept.Text = "選擇部門";
+            this.comboBox_Emp.FormattingEnabled = true;
+            this.comboBox_Emp.Location = new System.Drawing.Point(36, 56);
+            this.comboBox_Emp.Name = "comboBox_Emp";
+            this.comboBox_Emp.Size = new System.Drawing.Size(121, 20);
+            this.comboBox_Emp.TabIndex = 3;
+            // 
+            // comboBox_Dept
+            // 
+            this.comboBox_Dept.FormattingEnabled = true;
+            this.comboBox_Dept.Location = new System.Drawing.Point(36, 20);
+            this.comboBox_Dept.Name = "comboBox_Dept";
+            this.comboBox_Dept.Size = new System.Drawing.Size(121, 20);
+            this.comboBox_Dept.TabIndex = 2;
             // 
             // label_Emp
             // 
@@ -92,21 +113,79 @@
             this.label_Emp.TabIndex = 1;
             this.label_Emp.Text = "label2";
             // 
-            // comboBox_Dept
+            // label_Dept
             // 
-            this.comboBox_Dept.FormattingEnabled = true;
-            this.comboBox_Dept.Location = new System.Drawing.Point(36, 20);
-            this.comboBox_Dept.Name = "comboBox_Dept";
-            this.comboBox_Dept.Size = new System.Drawing.Size(121, 20);
-            this.comboBox_Dept.TabIndex = 2;
+            this.label_Dept.AutoSize = true;
+            this.label_Dept.Location = new System.Drawing.Point(34, 5);
+            this.label_Dept.Name = "label_Dept";
+            this.label_Dept.Size = new System.Drawing.Size(53, 12);
+            this.label_Dept.TabIndex = 0;
+            this.label_Dept.Text = "選擇部門";
             // 
-            // comboBox_Emp
+            // button1
             // 
-            this.comboBox_Emp.FormattingEnabled = true;
-            this.comboBox_Emp.Location = new System.Drawing.Point(36, 56);
-            this.comboBox_Emp.Name = "comboBox_Emp";
-            this.comboBox_Emp.Size = new System.Drawing.Size(121, 20);
-            this.comboBox_Emp.TabIndex = 3;
+            this.button1.Location = new System.Drawing.Point(36, 99);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "員工系統";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(36, 129);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "排程系統";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(36, 159);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(121, 23);
+            this.button3.TabIndex = 6;
+            this.button3.Text = "打卡系統";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(36, 189);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(121, 23);
+            this.button4.TabIndex = 7;
+            this.button4.Text = "請假系統";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(36, 219);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "權限系統";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(36, 249);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(121, 23);
+            this.button6.TabIndex = 9;
+            this.button6.Text = "薪資系統";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(36, 279);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(121, 23);
+            this.button7.TabIndex = 10;
+            this.button7.Text = "會員登入系統";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.會員登入系統_Click);
             // 
             // MainForm
             // 
@@ -135,6 +214,13 @@
         private System.Windows.Forms.ComboBox comboBox_Dept;
         private System.Windows.Forms.Label label_Emp;
         private System.Windows.Forms.Label label_Dept;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 
